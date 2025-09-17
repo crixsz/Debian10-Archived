@@ -1,6 +1,6 @@
 #!/bin/bash
-
-echo "=== Debian 10 Archive Setup Script ==="
+clear
+echo "[ Debian 10 Archive Setup Script ]"
 echo
 
 # Function to print colored output

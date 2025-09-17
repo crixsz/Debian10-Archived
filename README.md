@@ -17,7 +17,7 @@ After launching your Debian 10 instance, run the provided `setup-apt.sh` script 
 Run the following one-liner to download, make executable, and run the `setup-apt.sh` script as root:  
 
 ```
-wget https://github.com/crixsz/Debian10-Archived/setup-apt.sh && chmod +x setup-apt.sh && ./setup-apt.sh
+wget https://raw.githubusercontent.com/crixsz/Debian10-Archived/refs/heads/master/setup-apt.sh && chmod +x setup-apt.sh && ./setup-apt.sh
 ```
 
 
