@@ -57,18 +57,6 @@ else
     cp /etc/apt/sources.list.backup /etc/apt/sources.list
     exit 1
 fi
-
-# Update package lists
-print_info "Updating package lists..."
-if apt update > /dev/null 2>&1; then
-    print_success "Package lists updated successfully"
-else
-    print_error "Failed to update package lists"
-    print_info "Restoring backup..."
-    cp /etc/apt/sources.list.backup /etc/apt/sources.list
-    exit 1
-fi
-
 echo
 print_success "Debian 10 archive setup completed successfully!"
 echo "Backup saved as: /etc/apt/sources.list.backup"
